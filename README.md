@@ -23,5 +23,12 @@ source .venv/bin/activate
 ## Usage
 
 ```
-python main.py
+python main.py <filename>
 ```
+
+For testing on sample file ([test.pdf](test.pdf)):
+
+```
+python main.py test.pdf
+```
+

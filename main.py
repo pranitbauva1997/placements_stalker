@@ -1,3 +1,5 @@
+import sys
+
 from tabula import read_pdf
 
 
@@ -9,7 +11,7 @@ def get_map(filename):
         for student in students:
             student = student.split(',')
 
-            if student[0] is None or '':
+            if student[0] is '':
                 continue
 
             if len(student) < 3:
@@ -19,8 +21,7 @@ def get_map(filename):
 
     return map_roll_no_to_name
 
-
-json = read_pdf('test.pdf', output_format='json')
+json = read_pdf(sys.argv[1], output_format='json')
 json = json[0]
 data = json['data']
 
