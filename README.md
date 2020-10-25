@@ -20,6 +20,12 @@ Activate it in a shell using:
 source .venv/bin/activate
 ```
 
+**Install Dependencies**
+
+```
+pip install -r requirements.txt
+```
+
 ## Usage
 
 ```
