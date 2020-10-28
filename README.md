@@ -9,6 +9,9 @@ You are at the right place.
 
 ## Installation
 
+Make sure you have Java Development Kit (SE Edition) installed since
+we use `tabula` to read pdfs which in return depends on Java.
+
 Setup virtual environment in Python3 using:
 
 ```
@@ -23,7 +26,7 @@ source .venv/bin/activate
 **Install Dependencies**
 
 ```
-pip install -r requirements.txt
+pip install tabula-py
 ```
 
 ## Usage
